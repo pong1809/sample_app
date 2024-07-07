@@ -7,6 +7,13 @@ gem "rails", "~> 7.1.3", ">= 7.1.3.4"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
+gem "bootsnap", require: false
+
+# Use Sass to process CSS
+# gem "sassc-rails"
+gem "bootstrap-sass", "3.4.1"
+gem "sassc-rails"
+gem "rails-i18n"
 
 # Use mysql as the database for Active Record
 gem "mysql2", "~> 0.5"

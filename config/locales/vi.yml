@@ -1,0 +1,10 @@
+vi:
+  base_title: "Ứng dụng mẫu cho Ruby on Rails Tutorial"
+  products:
+    index:
+      products: 'Các sản phẩm'
+      name: 'Tên'
+      show: 'Xem chi tiết'
+      edit: 'Chinh sửa'
+      destroy: 'Xóa'
+      new: 'Tạo sản phẩm mới'
