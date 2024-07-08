@@ -1,9 +1,0 @@
-<p style="color: green"><%= notice %></p>
-
-<h1><%= t("products.index.products")%></h1>
-
-<div id="products">
-    <%= render(@products) || "No Products"%>
-</div>
-
-<%= link_to t('products.index.new'), new_product_path %>
