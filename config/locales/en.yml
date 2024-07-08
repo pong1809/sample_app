@@ -29,3 +29,12 @@
 
 en:
   hello: "Hello world"
+  base_title: "Ruby on Rails Tutorial Sample App"
+  products:
+    index:
+      products: 'Products'
+      name: 'Name'
+      show: 'Show this product'
+      edit: 'Edit'
+      destroy: 'Destroy'
+      new: 'New product'
