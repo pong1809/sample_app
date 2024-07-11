@@ -18,7 +18,7 @@ gem "bcrypt", "~> 3.1.7"
 gem "importmap-rails"
 
 gem "sassc-rails"
-
+gem "figaro"
 gem "rails-i18n"
 gem "faker", "2.21.0"
 
