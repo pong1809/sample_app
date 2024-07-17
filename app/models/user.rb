@@ -1,6 +1,4 @@
 class User < ApplicationRecord
-
-
   validates :name, presence: true,
                    length: { in: 1..50, too_long: I18n.t('users.warnings.max_length_50'),
                              too_short: I18n.t('users.warnings.min_length_1') }
@@ -26,5 +24,14 @@ class User < ApplicationRecord
 
   def downcase_email
     email.downcase!
+  end
+
+  def self.digest(string)
+    cost = if ActiveModel::SecurePassword.min_cost
+             BCrypt::Engine::MIN_COST
+           else
+             BCrypt::Engine.cost
+           end
+    BCrypt::Password.create string, cost:
   end
 end

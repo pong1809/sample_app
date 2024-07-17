@@ -36,3 +36,10 @@ en:
       min_length_1: "1 character is the minimum allowed"
     new:
       create_my_account: "Create my account"
+  header:
+    users: "Users"
+    account: "Account"
+    profile: "Profile"
+    settings: "Settings"
+    logout: "Logout"
+    login: "Login"
