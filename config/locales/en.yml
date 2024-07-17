@@ -30,11 +30,9 @@
 en:
   hello: "Hello world"
   base_title: "Ruby on Rails Tutorial Sample App"
-  products:
-    index:
-      products: 'Products'
-      name: 'Name'
-      show: 'Show this product'
-      edit: 'Edit'
-      destroy: 'Destroy'
-      new: 'New product'
+  users:
+    warnings:
+      max_length_50: "50 characters is the maximum allowed"
+      min_length_1: "1 character is the minimum allowed"
+    new:
+      create_my_account: "Create my account"
