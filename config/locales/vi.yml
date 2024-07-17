@@ -1,10 +1,8 @@
 vi:
   base_title: "Ứng dụng mẫu cho Ruby on Rails Tutorial"
-  products:
-    index:
-      products: 'Các sản phẩm'
-      name: 'Tên'
-      show: 'Xem chi tiết'
-      edit: 'Chinh sửa'
-      destroy: 'Xóa'
-      new: 'Tạo sản phẩm mới'
+users:
+    warnings:
+      max_length_50: "Quá 50 ký tự"
+      min_length_1: "ít nhất 1 ký tự"
+    new:
+      create_my_account: "Tạo tài khoản"
