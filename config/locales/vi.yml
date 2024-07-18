@@ -6,3 +6,10 @@ users:
       min_length_1: "ít nhất 1 ký tự"
     new:
       create_my_account: "Tạo tài khoản"
+  header:
+    users: "Người dùng"
+    account: "Tài khoản"
+    profile: "Thông tin"
+    settings: "Cài đặt"
+    logout: "Đăng xuất"
+    login: "Đăng nhập"

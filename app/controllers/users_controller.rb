@@ -6,11 +6,12 @@ class UsersController < ApplicationController
 
   def set_user
     @user = User.find_by(id: params[:id])
-    unless @user
-      flash[:warning] = 'User not found!'
-      redirect_to root_path
-    end
+    return if @user
+
+    flash[:warning] = 'User not found!'
+    redirect_to root_path
   end
+
   def new
     @user = User.new
   end
@@ -19,6 +20,8 @@ class UsersController < ApplicationController
     @user = User.new user_params
 
     if @user.save
+      reset_session
+      log_in @user
       flash[:success] = 'Welcome to the Sample App!'
       redirect_to @user
     else
