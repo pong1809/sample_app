@@ -1,11 +1,18 @@
 vi:
   base_title: "Ứng dụng mẫu cho Ruby on Rails Tutorial"
+  sign_up: "Đăng ký"
+  save_changes: "Lưu thay đổi"
 users:
     warnings:
       max_length_50: "Quá 50 ký tự"
       min_length_1: "ít nhất 1 ký tự"
     new:
       create_my_account: "Tạo tài khoản"
+    edit:
+      change: "Thay đổi"
+      update_your_profile: "Cập nhật thông tin"
+    view:
+      all_users: "Tất cả người dùng"
   header:
     users: "Người dùng"
     account: "Tài khoản"
