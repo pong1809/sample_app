@@ -20,3 +20,8 @@ users:
     settings: "Cài đặt"
     logout: "Đăng xuất"
     login: "Đăng nhập"
+  mailer:
+    subject:
+      account_activation: "Kích hoạt tài khoản"
+    headers:
+      activation_header: "Chào mừng bạn đến với Sample App! Ấn vào đường dẫn phía dưới để kích hoạt tài khoản:"

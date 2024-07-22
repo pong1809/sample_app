@@ -12,10 +12,10 @@ gem 'redis', '~> 4.0'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'faker', '2.21.0'
+gem 'figaro'
+gem 'pagy'
 gem 'rails', '~> 7.1.3', '>= 7.1.3.4'
 gem 'rubocop', require: false
-
-gem 'pagy'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'bootsnap', require: false
