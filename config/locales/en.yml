@@ -30,12 +30,19 @@
 en:
   hello: "Hello world"
   base_title: "Ruby on Rails Tutorial Sample App"
+  sign_up: "Sign up"
+  save_changes: "Save changes"
   users:
     warnings:
       max_length_50: "50 characters is the maximum allowed"
       min_length_1: "1 character is the minimum allowed"
     new:
       create_my_account: "Create my account"
+    edit:
+      change: "Change"
+      update_your_profile: "Update your profile"
+    view:
+      all_users: "All users"
   header:
     users: "Users"
     account: "Account"

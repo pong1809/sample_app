@@ -5,7 +5,7 @@ class SessionsController < ApplicationController
 
       log_in user
       params.dig(:session, :remember_me) == '1' ? remember(user) : forget(user)
-      redirect_to user, status: :see_other
+      redirect_back_or user
     else
       flash.now[:danger] = t 'invalid_email_password_combination'
       render :new, status: :unprocessable_entity

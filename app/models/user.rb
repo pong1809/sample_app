@@ -1,12 +1,17 @@
 class User < ApplicationRecord
   attr_accessor :remember_token
 
+  scope :newest, -> { order(created_at: :desc) }
+
   validates :name, presence: true,
                    length: { in: 1..50, too_long: I18n.t('users.warnings.max_length_50'),
                              too_short: I18n.t('users.warnings.min_length_1') }
 
   validates :email, presence: true, length: { maximum: Settings.max_255 },
                     format: { with: Regexp.new(Settings.VALID_EMAIL_REGEX) }, uniqueness: true
+
+  validates :password, presence: true, length: { minimum: Settings.digit_6 },
+                       allow_nil: true
 
   has_secure_password
 
