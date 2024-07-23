@@ -50,3 +50,8 @@ en:
     settings: "Settings"
     logout: "Logout"
     login: "Login"
+  mailer:
+    subject:
+      account_activation: "Account activation"
+    headers:
+      activation_header: "Welcome to the Sample App! Click on the link below to activate your account:"
