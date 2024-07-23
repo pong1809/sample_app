@@ -11,6 +11,8 @@ users:
     edit:
       change: "Thay đổi"
       update_your_profile: "Cập nhật thông tin"
+      password_reset: "Đặt lại mật khẩu"
+      password_forget: "Quên mật khẩu"
     view:
       all_users: "Tất cả người dùng"
   header:
@@ -25,3 +27,9 @@ users:
       account_activation: "Kích hoạt tài khoản"
     headers:
       activation_header: "Chào mừng bạn đến với Sample App! Ấn vào đường dẫn phía dưới để kích hoạt tài khoản:"
+  password_reset:
+    subject: "Đặt lại mật khẩu"
+    title: "Đặt lại mật khẩu"
+    body_1: "Để đặt lại mật khẩu ấn vào đường dẫn phía dưới:"
+    body_2: "Đường dẫn sẽ hết hạn sau 2 tiếng nữa"
+    body_3: "Nếu bạn không phải người muốn đặt lại mật khẩu, làm ơn bỏ qua mail này và mật khẩu của bạn vẫn sẽ giữ nguyên."
