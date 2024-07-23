@@ -1,5 +1,6 @@
 max_255: 255
 digit_6: 6
+digit_2: 2
 digit_10: 10
 digit_80: 80
 VALID_EMAIL_REGEX: \A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z

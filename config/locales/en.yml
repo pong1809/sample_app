@@ -41,6 +41,8 @@ en:
     edit:
       change: "Change"
       update_your_profile: "Update your profile"
+      password_reset: "Reset password"
+      password_forget: "Forget password"
     view:
       all_users: "All users"
   header:
@@ -55,3 +57,9 @@ en:
       account_activation: "Account activation"
     headers:
       activation_header: "Welcome to the Sample App! Click on the link below to activate your account:"
+  password_reset:
+      subject: "Reset password"
+      title: "Reset password"
+      body_1: "To reset your password click the link below:"
+      body_2: "This link will expire in two hours."
+      body_3: "If you did not request your password to be reset, please ignore this email and your password will stayas it is."
