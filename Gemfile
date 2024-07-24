@@ -21,6 +21,10 @@ gem 'rubocop', require: false
 gem 'bootsnap', require: false
 gem 'sprockets-rails'
 
+gem 'active_storage_validations', '0.9.8'
+gem 'image_processing', '1.12.2'
+
+gem 'i18n-js'
 # Use Sass to process CSS
 # gem "sassc-rails"
 gem 'bootstrap-sass', '3.4.1'

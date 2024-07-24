@@ -4,7 +4,9 @@ class UsersController < ApplicationController
   before_action :correct_user, only: %i[edit update]
   before_action :admin_user, only: :destroy
 
-  def show; end
+  def show
+    @page, @microposts = pagy @user.microposts.newest, items: Settings.digit_10
+  end
 
   def index
     @pagy, @users = pagy User.newest, items: Settings.digit_10
