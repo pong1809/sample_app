@@ -29,5 +29,7 @@ module RailsTutorial
     config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}')]
     config.i18n.available_locales = %i[en vi]
     config.i18n.default_locale = :en
+
+    config.active_storage.variant_processor = :mini_magick
   end
 end

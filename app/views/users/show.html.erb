@@ -6,3 +6,12 @@
     </section>
   </aside>
 </div>
+<div class="col-md-8">
+  <% if @microposts.any? %>
+    <h3>Microposts (<%= @microposts.count %>)</h3>
+    <ol class="microposts">
+      <%= render @microposts %>
+    </ol>
+    <%== pagy_bootstrap_nav(@page) %>
+  <% end %>
+</div>
