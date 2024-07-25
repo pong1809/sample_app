@@ -1,7 +1,11 @@
 max_255: 255
-digit_6: 6
+digit_1: 1
 digit_2: 2
+digit_5: 5
+digit_6: 6
 digit_10: 10
+digit_30: 30
+digit_50: 50
 digit_80: 80
 digit_140: 140
 digit_500: 500
